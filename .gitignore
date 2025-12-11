@@ -1,0 +1,40 @@
+# Compiled Java classes and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+/bin/
+/target/
+/build/
+
+# IDE-specific files and directories
+.idea/         # IntelliJ IDEA project files
+*.iml          # IntelliJ IDEA module files
+*.ipr          # IntelliJ IDEA project files
+*.iws          # IntelliJ IDEA workspace files
+.settings/     # Eclipse project settings
+.project       # Eclipse project file
+.classpath     # Eclipse classpath file
+.metadata/     # Eclipse workspace metadata
+nbproject/     # NetBeans project files
+*.nbattrs      # NetBeans files
+
+# Log files and temporary files
+*.log
+*.tmp
+*.bak
+*~
+TEST-*.xml     # Maven Surefire/Failsafe reports
+
+# Dependency caches
+/node_modules/ # Common for full-stack projects
+
+# Operating System temporary files
+.DS_Store      # macOS files
+Thumbs.db      # Windows files
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
